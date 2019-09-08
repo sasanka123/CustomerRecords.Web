@@ -23,8 +23,8 @@ namespace CustomerRecords.DAL
         public IEnumerable<Customer> Get()
         {
             //************************CALL FROM SP
-            //var data = dataContext.Database.SqlQuery<UserCustomer>("GET_USER_CUSTOMER");
-            //var list = data.ToList<UserCustomer>();
+            var data = dataContext.Database.SqlQuery<UserCustomer>("GET_USER_CUSTOMER");
+            var list = data.ToList<UserCustomer>();
 
             var userList = dataContext.Customers;
             return userList.ToList();

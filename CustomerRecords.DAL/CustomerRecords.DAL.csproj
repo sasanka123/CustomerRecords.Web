@@ -51,28 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomerRepository.cs" />
-    <Compile Include="Data\CustModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CustModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\CustModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CustModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\CustModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CustModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Data\CUSTOMER_DETAILS.cs">
-      <DependentUpon>CustModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Data\DataContext.cs" />
-    <Compile Include="Data\GET_ALL_CUSTOMERS_Result.cs">
-      <DependentUpon>CustModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="IRepository.cs" />
     <Compile Include="IUserDataRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,13 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="Data\CustModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>CustModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Data\CustModel.edmx.diagram">
-      <DependentUpon>CustModel.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,18 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Data\CustModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>CustModel.edmx</DependentUpon>
-      <LastGenOutput>CustModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Data\CustModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>CustModel.edmx</DependentUpon>
-      <LastGenOutput>CustModel.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
