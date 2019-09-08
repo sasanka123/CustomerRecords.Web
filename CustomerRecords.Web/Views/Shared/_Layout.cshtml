@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
+</head>
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+
+                @Html.ActionLink("Custo App", "Index", "Home", new { Area = "Common" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", new { Controller = "Home", Area = "Common" })</li>
+                    <li>@Html.ActionLink("Customers", "Customers", "Home")</li>
+                    <li>@Html.ActionLink("Dataz", "Data", "Home")</li>
+
+                    <li><a href="/Login/Index">Login</a></li>
+
+
+                </ul>
+               
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container body-content">
+        <br /><br />
+        @RenderBody()
+        <hr />
+
+        <br />
+       
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Asp.Net MVC And Entity Framework</p>
+        </footer>
+       
+    </div>
+
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

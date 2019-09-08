@@ -1,0 +1,93 @@
+﻿@model CustomerRecords.Entity.Customer
+
+@{
+    /**/
+
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Delete", "Home", FormMethod.Post))
+{
+
+
+    <div class="panel panel-primary">
+
+        <div class="panel-heading"><h3>Details View</h3></div>
+        <div class="panel-body">
+            <table class="table">
+                <tr>
+                    <th style="width:100px">Id:</th>
+                    <td>
+                        @Html.DisplayFor(model => model.Id, new { id = "txtId", Value = Model.Id, @class = "form-control" })
+                        @Html.HiddenFor(model => model.Id, new { id = "txtId", Value = Model.Id, @class = "form-control" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="width:100px">First Name:</th>
+                    <td>
+                        @Html.DisplayFor(model => model.FirstName, new { id = "txtFirstName", Value = Model.FirstName, @class = "form-control" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="width:100px">Last Name:</th>
+                    <td>
+                        @Html.DisplayFor(model => model.LastName, new { id = "txtLastName", Value = Model.LastName, @class = "form-control" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="width:100px">Email:</th>
+                    <td>
+                        @Html.DisplayFor(model => model.Email, new { id = "txtEmail", Value = Model.Email, @class = "form-control" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="width:100px">Contact:</th>
+                    <td>
+                        @Html.DisplayFor(model => model.ContactNo, new { id = "txtContactNo", Value = Model.ContactNo, @class = "form-control" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="width:100px">Address:</th>
+                    <td>
+                        @Html.DisplayFor(model => model.Address, new { id = "txtAddress", Value = Model.Address, @class = "form-control" })
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="panel-footer">
+            <button onclick="location.href='@Url.Action("Create", "Home",new { id = Model.Id})';return false;" class="btn btn-warning">Edit</button>
+            <button type="submit" class="btn btn-danger">Delete</button>
+
+        </div>
+    </div>
+
+
+
+    
+
+
+
+   
+}
+
+
+
+
+
+
+<style>
+    .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+        padding: 8px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 0;
+    }
+</style>

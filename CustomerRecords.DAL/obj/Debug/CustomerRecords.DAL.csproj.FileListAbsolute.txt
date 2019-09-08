@@ -1,0 +1,14 @@
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\CustomerRecords.DAL.dll.config
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\CustomerRecords.DAL.dll
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\CustomerRecords.DAL.pdb
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\CustomerRecords.Entity.dll
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\EntityFramework.dll
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\CustomerRecords.Entity.pdb
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\EntityFramework.xml
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\obj\Debug\CustomerRecords.DAL.csprojAssemblyReference.cache
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\obj\Debug\CustomerRecords.DAL.csproj.CoreCompileInputs.cache
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\obj\Debug\CustomerRecords.DAL.csproj.CopyComplete
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\obj\Debug\CustomerRecords.DAL.dll
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.DAL\obj\Debug\CustomerRecords.DAL.pdb

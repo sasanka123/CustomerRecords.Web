@@ -1,0 +1,5 @@
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.Entity\bin\Debug\CustomerRecords.Entity.dll
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.Entity\bin\Debug\CustomerRecords.Entity.pdb
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.Entity\obj\Debug\CustomerRecords.Entity.csproj.CoreCompileInputs.cache
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.Entity\obj\Debug\CustomerRecords.Entity.dll
+F:\Tests\DiamensionSoftware\CustomerRecords\CustomerRecords.Web\CustomerRecords.Entity\obj\Debug\CustomerRecords.Entity.pdb

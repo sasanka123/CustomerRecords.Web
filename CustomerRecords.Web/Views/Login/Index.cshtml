@@ -1,0 +1,36 @@
+﻿@model CustomerRecords.Entity.UserLogin
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+@using (Html.BeginForm("Index", "Login", FormMethod.Post))
+{
+
+<div class="panel panel-primary">
+
+    <div class="panel-heading"><h3>Login</h3></div>
+    <div class="alert alert-danger" role="alert">Something went wrong</div>
+    <div class="panel-body">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            @Html.TextBoxFor(model => model.Username, new { id = "txtUsername", Value = "", @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            @Html.PasswordFor(model => model.Password, new { id = "txtPassword", Value = "", @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+        </div>
+
+    </div>
+    <div class="panel-footer">
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+
+    </div>
+</div>
+
+   
+
+  
+}
